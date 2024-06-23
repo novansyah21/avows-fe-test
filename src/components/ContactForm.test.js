@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import ContactForm from './ContactForm';
-import store from '../store';
+import store from '../middleware/store';
 
 test('submitting form adds contact', () => {
   const { getByPlaceholderText, getByText } = render(

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import store from './store/store';
+import store from './middleware/store';
 import ContactList from './components/ContactList';
 import ContactForm from './components/ContactForm';
 
