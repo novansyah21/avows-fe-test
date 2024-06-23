@@ -19,7 +19,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div className="ContactForm">
       <h2>Add Contact</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -34,7 +34,7 @@ const ContactForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <button type="submit">Add Contact</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
